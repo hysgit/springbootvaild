@@ -12,7 +12,7 @@ import org.junit.Test;
  * @author hy
  * @create 2019-03-12 16:41
  **/
-public class Records {
+public class TestLogin {
     public static final String url = "http://127.0.0.1:8080/";
 
     @Test
@@ -38,6 +38,4 @@ public class Records {
         String respMessage = response.body().string();
         System.out.println(respMessage);
     }
-
-
 }
